@@ -20,6 +20,20 @@ vue --version
 
 ## Project Setup 
 
+Please first clone this repository on your local machine with the next command:
+
+```sh
+git clone https://github.com/VicenAra/FALP-challenge
+```
+
+Once you clone the repository on your local machine you will have to init the submodule cors-anywhere, this is a NodeJS proxy which adds CORS headers to the proxied request.
+To do so you will have to run the next commands inside the repository directory:
+
+```sh
+git submodule init
+git submodule update
+```
+
 In order to properly run the project you will have to follow the next steps:
 
 * Open the app directory
@@ -41,7 +55,7 @@ cd cors-anywhere
 npm install
 ```
 
-* Create a .env file and include your personal access token to the SuperHero API as a variable, you can generate one using a GitHub Account [here](https://www.superheroapi.com)
+* On the superhero app directory create a .env file and include your personal access token to the SuperHero API as a variable, you can generate one using a GitHub Account [here](https://www.superheroapi.com)
 
 ```sh
 VITE_SUPER_HERO_API_ACCESS_TOKEN= (your access token here)

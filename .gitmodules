@@ -1,0 +1,3 @@
+[submodule "superheroapp/cors-anywhere"]
+	path = superheroapp/cors-anywhere
+	url = https://github.com/Rob--W/cors-anywhere

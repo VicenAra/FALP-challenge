@@ -55,7 +55,7 @@ cd cors-anywhere
 npm install
 ```
 
-* On the superhero app directory create a .env file and include your personal access token to the SuperHero API as a variable, you can generate one using a GitHub Account [here](https://www.superheroapi.com)
+* On the superheroapp directory create a .env file and include your personal access token to the SuperHero API as a variable, you can generate one using a GitHub Account [here](https://www.superheroapi.com)
 
 ```sh
 VITE_SUPER_HERO_API_ACCESS_TOKEN= (your access token here)
